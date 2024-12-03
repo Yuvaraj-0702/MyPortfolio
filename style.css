@@ -289,7 +289,7 @@ section#skills {
 .skill-details .skill-box .progress {
     height: 100%;
     background: #007bff;
-    border-radius: 5px;
+    border-radius: 15px;
     transition: width 0.3s ease;
 }
 
