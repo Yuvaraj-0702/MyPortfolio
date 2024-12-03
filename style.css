@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 * {
@@ -280,8 +281,8 @@ section#skills {
 .skill-details .skill-box .bar {
     width: 100%;
     background: #ddd;
-    height: 10px;
-    border-radius: 5px;
+    height: 20px;
+    border-radius: 15px;
     overflow: hidden;
 }
 
@@ -291,6 +292,41 @@ section#skills {
     border-radius: 5px;
     transition: width 0.3s ease;
 }
+
+.skill-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.skill-box .topic {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.skill-box .bar {
+    position: relative;
+    background: #ddd;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-box .progress {
+    height: 100%;
+    background: #007bff;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+}
+
+.skill-box .percentage {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000000;
+}
+
 
 /* Projects Section */
 section#projects {
